@@ -1,10 +1,11 @@
 // Made by ALAA DROID
-#define LINK "taplink.cc/alaadroid" // SOCIAL MEDIA
+/* SOCIAL MEDIA | taplink.cc/alaadroid */
+
 
 #include <stdio.h>
 #include <string.h>
 
-// Encryption function
+// Encryption function 
 void encryptCaesar(char *text, int shift) {
     for (int i = 0; text[i] != '\0'; i++) {
         char c = text[i];
@@ -25,18 +26,18 @@ int main() {
     char text[100];
     int shift;
 
-    printf("Enter the text to encrypt: ");
+    printf("Enter the text to encrypt ");
     fgets(text, sizeof(text), stdin);
     text[strcspn(text, "\n")] = 0; // Remove newline from input
 
-    printf("Enter the shift key: ");
+    printf("Enter the shift key ");
     scanf("%d", &shift);
 
     encryptCaesar(text, shift);
-    printf("Encrypted text: %s\n", text);
+    printf("Encrypted text %s\n", text);
 
     decryptCaesar(text, shift);
-    printf("Decrypted text: %s\n", text);
+    printf("Decrypted text %s\n", text);
 
     // Print author info
     printf("\n==========================\n");
