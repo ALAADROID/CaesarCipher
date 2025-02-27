@@ -1,5 +1,5 @@
 // Made by ALAA DROID
-/* SOCIAL MEDIA: "taplink.cc/alaadroid" */
+#define LINK "taplink.cc/alaadroid" // SOCIAL MEDIA
 
 #include <stdio.h>
 #include <string.h>
