@@ -1,3 +1,6 @@
+// ALAA DROID
+/* SOCIAL MEDIA: "taplink.cc/alaadroid" */
+
 #include <stdio.h>
 #include <string.h>
 
@@ -34,6 +37,12 @@ int main() {
 
     decryptCaesar(text, shift);
     printf("Decrypted text: %s\n", text);
+
+    // Print author info
+    printf("\n==========================\n");
+    printf("   Made by ALAA DROID\n");
+    printf("   taplink.cc/alaadroid\n");
+    printf("==========================\n");
 
     return 0;
 }
