@@ -1,5 +1,6 @@
 # Caesar Cipher Encryption & Decryption in C
-This project implements the Caesar Cipher, a simple encryption technique where each letter in the plaintext is shifted by a fixed number of positions in the alphabet.
+
+This project implements the **Caesar Cipher**, a simple encryption technique where each letter in the plaintext is shifted by a fixed number of positions in the alphabet.
 
 ## Features
 ✅ Encrypts text using the Caesar Cipher algorithm.
@@ -10,14 +11,42 @@ This project implements the Caesar Cipher, a simple encryption technique where e
 
 ✅ Ignores non-alphabetic characters (they remain unchanged).
 
-✅ Written in pure C for efficiency and simplicity.
-
+✅ Written in pure **C** for efficiency and simplicity.
 
 ## How It Works
-The user enters the text to be encrypted.
+1. The user enters the text to be encrypted.
+2. The user provides a shift key (an integer).
+3. The program applies the shift to encrypt the text.
+4. The program then decrypts the text back to its original form.
 
-The user provides a shift key (an integer).
+## 📥 Cloning the Repository
+To get started, clone this repository using Git:
 
-The program applies the shift to encrypt the text.
+```bash
+git clone https://github.com/ALAADROID/CaesarCipher.git
+cd CaesarCipher
+```
 
-The program then decrypts the text back to its original form.
+## 🛠️ Compilation
+To compile the program, use **GCC**:
+
+```bash
+gcc -o caesar_cipher "Caesar cipher.c"
+```
+
+## 🚀 Running the Program
+After compiling, run the program using:
+
+```bash
+./caesar_cipher
+```
+
+## 📌 Notes
+- Make sure you have **GCC** installed on your system.
+- If you're on Windows, you may need to use **MinGW** or **WSL** to run the compiled program.
+
+## 📜 License
+This project is open-source and free to use.
+
+---
+**Created by [ALAADROID](https://github.com/ALAADROID)**
