@@ -1,4 +1,4 @@
-name: Build and Run C Code
+name: C Build and Run
 
 on: [push, pull_request]
 
@@ -8,15 +8,14 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install GCC
         run: sudo apt update && sudo apt install -y gcc
 
       - name: Compile C Code
-        run: gcc -o caesar caesar.c
+        run: gcc -o CaesarCipher CaesarCipher.c
 
       - name: Run C Program
-        run: |
-          echo "Running the Caesar Cipher Program"
-          ./caesar
+        run: ./CaesarCipher
+        if: success()
