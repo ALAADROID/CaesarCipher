@@ -45,6 +45,14 @@ After compiling, run the program using:
 - Make sure you have **GCC** installed on your system.
 - If you're on Windows, you may need to use **MinGW** or **WSL** to run the compiled program.
 
+
+## 💻 Running the Program Locally
+If you'd like to run the program on your own computer, you're welcome to download the `.c` file and run it on any C compiler, including **Visual Studio** or others of your choice.
+
+Simply open the file in your preferred compiler, compile, and run the program as instructed. Enjoy exploring the Caesar Cipher encryption and decryption process!
+
+
+
 ## 📜 License
 This project is open-source and free to use.
 
